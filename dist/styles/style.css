@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: block;
+}
+
+.main {
+    display: block;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.button-nav {
+    display: flex;
+    padding-right: 30rem;
+    padding-left: 30rem;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgb(216, 216, 216);
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
